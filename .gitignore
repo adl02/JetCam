@@ -1,0 +1,57 @@
+# Android/Gradle
+.gradle/
+build/
+**/build/
+
+# Local config
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle wrapper
+gradle-wrapper.jar
+
+# Log files
+*.log
+
+# Signing keys
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Crashlytics / Fabric
+crashlytics-build.properties
+
+# IntelliJ
+out/
+
+# Kotlin/Java
+*.class
+*.dex
+
+# C/C++ build outputs
+.externalNativeBuild/
+.cxx/
+
+# Android capture folder and generated files
+captures/
+output.json
+
+# JetBrains metadata
+.idea/*workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+
+# Misc
+*.orig
+.env
