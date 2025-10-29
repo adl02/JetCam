@@ -142,7 +142,6 @@ private suspend fun Context.getCameraProvider() : ProcessCameraProvider = suspen
           continuation.resume(cameraProviderFuture.get())
         }, ContextCompat.getMainExecutor(this)
     )
-
 }
 
 
