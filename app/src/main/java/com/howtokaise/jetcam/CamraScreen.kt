@@ -170,7 +170,6 @@ private fun carpturePhoto(imageCapture: ImageCapture, context: Context){
             override fun onError(exception: ImageCaptureException) {
                 Toast.makeText(context, "failed" , Toast.LENGTH_SHORT).show()
             }
-
         }
     )
 }
